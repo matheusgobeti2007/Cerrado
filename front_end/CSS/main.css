@@ -338,10 +338,10 @@ h1{
     
 }
 
-.clima{
+.clima {
     display: flex;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 11, 1, 0.5)),url(../HTML/imagem\ de\ clima\ cerado.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 11, 1, 0.5)), url(../img/imagem\ de\ clima\ cerado.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -353,11 +353,88 @@ h1{
     flex-direction: column;
 }
 
-@media screen and (max-width:600px){
-    .container{
+@media screen and (max-width:600px) {
+
+    .cabeca,
+    .canto {
         flex-direction: column;
+        margin: 0;
+    }
+
+    .texto,
+    .titulo {
+        font-size: 16px;
     }
 }
 
 
-666666
+.especie{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 11, 1, 0.5)),     url(../img/especie1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 65vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.flex {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+/*ampliando a imagem*/
+.mouse {
+    width: 300px;
+    height: 265px;
+    transition: transform .5s ease;
+    border: 5px solid #0e4120;
+
+  }
+
+  /* Aplicando rotação de 45 graus ao quadrado */
+  .mouse:hover {
+    /* transform: rotate(90deg); */
+    transform: scale(1.1);
+    
+  }
+
+  
+
+.contatos{
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: auto;
+    padding: 0 20px;
+}
+
+.contatos p{
+    color: azure;
+    margin-right: 15px;
+}
+footer ul li{
+    justify-content: space-between;
+    font-size: 10px;
+}
+footer .roda img{
+    width: 150px;
+    height: 150px;
+    margin-right: 700px;
+}
+
+
