@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* CABEÇALHO */
+@media (min-width: 1200px){
+body{
+    font-family: "Merriweather", serif;
+    background-color: beige;
+}
+}
+.logo{
+    width: 100px;
+}
+.cabeca{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: auto;
+    padding: 0 50px;
+    height: 90px;
+}
+h1{
+    color: whitesmoke;
+    /* font-size: 100px; */
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: 10% auto;
+    padding: 30px;
+    position: relative;
+  }
+  
+  .modal-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2ecc71;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 15px;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .modal input[type="text"],
+  .modal input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+  }
+  
+  .modal input[type="text"]:focus,
+  .modal input[type="password"]:focus {
+    border-color: #2ecc71;
+    outline: none;
+  }
+  
+  .modal input.icon {
+    background-image: url('user-icon.png');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+  
+  .modal input.password-icon {
+    background-image: url('password-icon.png'); 
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    margin-bottom: 10px;
+  }
+  
+  .btn-icon {
+    border: none; 
+    background-color: #28a745;
+    border-radius: 50%; 
+    padding: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+  }
+  
+  .btn-icon:hover {
+    background-color: #218838; /* Cor mais escura ao passar o mouse */
+  }
+  
+  .btn-icon img {
+    width: 20px; 
+    height: 20px; 
+  }
+  .wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+    color: #fff;
+    padding: 30px 40px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 40px 20px 20px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 20px 0 15px;
+}
+
+.remember-forget label input{
+    accent-color: #fff;
+    margin-right: 10px;
+}
+
+.remember-forget a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.wrapper .btn:hover{
+    background: rgba(255, 255, 255, .2);
+    color: #fff;
+    border-color: #fff;
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+
+.canto{
+    margin-right: 85px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+/* parte de dentro */
+.dropdown-menu{
+    background-color: #b7b7b7da;
+}
+
+.nav-item {
+    list-style: none;
+
+}
+
+.nav-item{
+    color: aliceblue;
+}
+
+/* CORPO */
+
+/* imagem */
+.cerrado{
+    width: 100%;
+    margin-top: 30px;
+}
+/* escrita */
+.oque {
+    color: black;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bolder;
+}
+
+.paragrafo{ 
+    text-align: center;
+    width: 1000px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.imagem{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../HTML/imagem\ bioma\ cerrado\ brasil.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo{
+    text-align: center;
+        font-family: "Merriweather", serif;
+        font-weight: 900;
+        font-style: normal; 
+        font-size: 60px;
+}
+
+.texto{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+.cerrado{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.mapa{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 11, 1, 0.5)),url(../HTML/mapa\ do\ brasil.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 65vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.Localizacao{
+    width: 50%;
+    height: 80px;
+
+}
+
+.text{
+    margin-top: 100px;
+    text-align: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    
+}
+
+.clima{
+    display: flex;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 11, 1, 0.5)),url(../HTML/imagem\ de\ clima\ cerado.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 65vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+
+666666
